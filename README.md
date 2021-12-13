@@ -1,14 +1,5 @@
 # EXOVIS project
 
-Currently, we have two controllers:
-1. [parallel controller (Book's version)](#parallel-controller)
-2. [modular neural control for gait synchronization and adaptation (Zumo's version)](#neural-dynamic-movement-primitive-controller)
-
-
-
-## Parallel Controller
-
-See https://gitlab.com/BRAIN_Lab/biorobotics-private/exovis/-/blob/master/ParallelControl.pdf
 
 ## Modular Neural Control for Gait Synchronization and Adaptation
 
