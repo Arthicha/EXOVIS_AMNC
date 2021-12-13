@@ -1,0 +1,21 @@
+<launch>
+
+<group ns="exvis" clear_params="true">
+         
+        <param name="csvpath" type="string" value="/home/zubuntu/Projects/exovis/projects/exvis/exvis_grab/catkin_ws/csv"/>
+        <param name="walk" type="double" value="1.0"/>
+        <param name="mode" type="double" value="0.0"/>
+        <param name="eta" type="double" value="0.0"/>
+        <param name="type" type="double" value="1.0"/>
+        
+        <node name="exvis_main_controller" pkg="exvis_grab" type="exvis_grab_node" required="true" output="screen"/>
+        <?ignore
+        <node name="exvis_interface" pkg="exvis_interface" type="exvis_interface_node"/>
+        ?>
+        <node name="exvis_messager" pkg="exvis_messager" type="exvis_messager_node" output="screen"/>
+        <node name="exvis_joystick" pkg="exvis_joystick" type="exvis_joystick_node" output="screen"/>
+ </group>
+
+
+
+</launch>

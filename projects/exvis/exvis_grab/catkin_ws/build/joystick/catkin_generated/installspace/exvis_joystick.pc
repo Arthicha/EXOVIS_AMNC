@@ -1,0 +1,8 @@
+prefix=/home/zubuntu/Projects/exovis/projects/exvis/exvis_grab/catkin_ws/install
+
+Name: exvis_joystick
+Description: Description of exvis_joystick
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lexvis_joystick
+Requires: 

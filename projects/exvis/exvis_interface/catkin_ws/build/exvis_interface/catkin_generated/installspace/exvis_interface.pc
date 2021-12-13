@@ -1,0 +1,8 @@
+prefix=/home/zubuntu/Projects/exovis/projects/exvis/exvis_interface/catkin_ws/install
+
+Name: exvis_interface
+Description: Description of exvis_interface
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lexvis_interface
+Requires: 

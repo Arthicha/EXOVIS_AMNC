@@ -1,0 +1,2 @@
+exvis_messager
+-DCATKIN_DEVEL_PREFIX=/home/zubuntu/Projects/exovis/projects/exvis/exvis_messager/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/zubuntu/Projects/exovis/projects/exvis/exvis_messager/catkin_ws/install -G Unix Makefiles

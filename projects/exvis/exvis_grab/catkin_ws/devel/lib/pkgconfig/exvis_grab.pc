@@ -1,0 +1,8 @@
+prefix=/home/zubuntu/Projects/exovis/projects/exvis/exvis_grab/catkin_ws/devel
+
+Name: exvis_grab
+Description: Description of exvis_grab
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lexvis_grab
+Requires: 

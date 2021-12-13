@@ -1,0 +1,8 @@
+prefix=/home/zubuntu/Projects/exovis/projects/exvis/exvis_messager/catkin_ws/install
+
+Name: exvis_messager
+Description: Description of exvis_messager
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib -lexvis_messager
+Requires: 
